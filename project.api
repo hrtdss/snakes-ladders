@@ -1,0 +1,56 @@
+#
+!s$l(++).cpp algorithm array assert.h atomic bits/stdc++.h bitset cassert cctype cerrno cfenv cfloat chrono cinttypes climits clocale cmath codecvt complex condition_variable csetjmp csignal cstdarg cstddef cstdint cstdio cstdlib cstring ctime ctype.h cuchar cwchar cwctype deque errno.h exception fenv.h float.h forward_list fstream functional future graphics.h initializer_list inttypes.h iomanip ios iosfwd iostream istream iterator keys_n_colors.h limits limits.h list locale locale.h map math.h memory mutex new numeric optional ostream queue random ratio regex scoped_allocator set setjmp.h shared_mutex signal.h sstream stack stdarg.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string.h string_view system_error thread time.h tuple type_traits typeindex typeinfo uchar.h unordered_map unordered_set utility valarray vector wchar.h wctype.h #<#>
+!snakes.cpp algorithm array assert.h atomic bits/stdc++.h bitset cassert cctype cerrno cfenv cfloat chrono cinttypes climits clocale cmath codecvt complex condition_variable csetjmp csignal cstdarg cstddef cstdint cstdio cstdlib cstring ctime ctype.h cuchar cwchar cwctype deque errno.h exception fenv.h float.h forward_list fstream functional future graphics.h initializer_list inttypes.h iomanip ios iosfwd iostream istream iterator keys_n_colors.h limits limits.h list locale locale.h map math.h memory mutex new numeric optional ostream queue random ratio regex scoped_allocator set setjmp.h shared_mutex signal.h sstream stack stdarg.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string.h string_view system_error thread time.h tuple type_traits typeindex typeinfo uchar.h unordered_map unordered_set utility valarray vector wchar.h wctype.h #<#>
+WIDTH : const int #<s$l(++).cpp>
+aboutscreen : const int* #<s$l(++).cpp>
+buttons _type_ #<s$l(++).cpp>
+cells : IMAGE*[] #<s$l(++).cpp>
+dice : IMAGE*[] #<s$l(++).cpp>
+gamewindow : const int* #<s$l(++).cpp>
+grass : IMAGE* #<s$l(++).cpp>
+ld : IMAGE*[] #<s$l(++).cpp>
+menuscreen : const intHEIGHT=768;const int CELLSIZE=70;IMAGE* #<s$l(++).cpp>
+players : snl[] #<s$l(++).cpp>
+rulesscreen : const int* #<s$l(++).cpp>
+sn : IMAGE*[] #<s$l(++).cpp>
+snl _type_ #<s$l(++).cpp>
+winner : IMAGE*[] #<s$l(++).cpp>
+	buttons::left : int #<snakes.cpp>
+	buttons::top : int #<snakes.cpp>
+	buttons::w : int #<snakes.cpp>
+	buttons::butt : inth=20;}[] #<snakes.cpp>
+	buttons::menustate : int #<snakes.cpp>
+	buttons::playerNum : int #<snakes.cpp>
+	buttons::buff : char[] #<snakes.cpp>
+	buttons::buffer : char[] #<snakes.cpp>
+	buttons::topleftcornerX : int #<snakes.cpp>
+	buttons::thereisahundred : inttopleftcornerY=734;bool #<snakes.cpp>
+	buttons::snakes : int[][] #<snakes.cpp>
+	buttons::ladders : int[][] #<snakes.cpp>
+	buttons::picnums : int[] #<snakes.cpp>
+	buttons::loadfiles() -> void #<snakes.cpp>
+	buttons::initbuttons() -> void #<snakes.cpp>
+	buttons::menuButtons(int currentStatus) -> int #<snakes.cpp>
+	buttons::rules() -> void #<snakes.cpp>
+	buttons::about() -> void #<snakes.cpp>
+	buttons::magnetacolor() -> void #<snakes.cpp>
+	buttons::lgreencolor() -> void #<snakes.cpp>
+	buttons::lorangecolor() -> void #<snakes.cpp>
+	buttons::lyellowcolor() -> void #<snakes.cpp>
+	buttons::createlevel() -> void #<snakes.cpp>
+	buttons::initgame() -> void #<snakes.cpp>
+	buttons::rollthedice() -> int #<snakes.cpp>
+	buttons::drawplayer(int num, int currx, int curry) -> void #<snakes.cpp>
+	buttons::removeplayer(int num, int lastx, int lasty, int leftcond, int rightcond) -> void #<snakes.cpp>
+	buttons::laststeps(int num) -> void #<snakes.cpp>
+	buttons::someonewon(int num) -> void #<snakes.cpp>
+	buttons::showactiveplayer(int f, int s) -> void #<snakes.cpp>
+	buttons::startgame() -> void #<snakes.cpp>
+	buttons::main() -> int #<snakes.cpp>
+	buttons::playermoves(int num) -> void #<snakes.cpp>
+	buttons::thereisahundred : inttopleftcornerY=34;bool #<snakes.cpp>
+	snl::playerI : int #<snakes.cpp>
+	snl::playerJ : int #<snakes.cpp>
+	snl::prevI : int #<snakes.cpp>
+	snl::prevJ : int #<snakes.cpp>
+	snl::arr : int[][] #<snakes.cpp>
